@@ -1,4 +1,10 @@
 # parts
+
+## やったことリスト
+- Chart.jsとの連携
+- Vuetifyとの連携
+
+---
 ### 4/9
 Chart.vue  
 ```
@@ -39,6 +45,19 @@ mouted時にpluginを使うよ〜と明示しないといけないgit issueの[�
 ```js
 this.addPlugin([chartjsPluginAnnotation])
 ```
+---
+### 6/1
+[参考URL](https://qiita.com/azukiazusa/items/16ebffd361af8fa58333)  
+VSCodeでコード整形を行う方法 Shift+Alt+f  
+基本的に必要な情報は[公式サンプル](https://vuetifyjs.com/ja/)から引っ張ってサンプルを打ち込むようにする。
+
+[icon](https://vuetifyjs.com/ja/components/icons/#section-8272)をVuetify側で設計済みになっている。
+
+動きをつけるのがすごく得意
+- [Reval](https://vuetifyjs.com/ja/components/cards/#outlined)
+- [Transitions](https://vuetifyjs.com/ja/styles/transitions/)
+
+
 
 
 

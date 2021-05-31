@@ -6,10 +6,8 @@ Vue.use(VueRouter)
 
 import TopView from "@/views/TopView"
 import ChartView from "@/views/ChartView"
-import SwordView from "@/views/SwordView"
-import SwordInputView from "@/views/SwordInputView"
+import VuetifyView from "@/views/VuetifyView"
 
-import MuscleView from "@/views/MuscleView"
 
 const router = new VueRouter({
   mode:"history",
@@ -23,16 +21,8 @@ const router = new VueRouter({
       component:ChartView
     },
     {
-      path:"/sword",
-      component:SwordView
-    },
-    {
-      path:"/sword/input",
-      component:SwordInputView
-    },
-    {
-      path:"/muscle",
-      component:MuscleView
+      path:"/vuetify",
+      component:VuetifyView
     }
   ],
 })
