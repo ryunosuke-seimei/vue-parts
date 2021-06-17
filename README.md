@@ -3,9 +3,11 @@
 ## やったことリスト
 - Chart.jsとの連携
 - Vuetifyとの連携
+- Vuexとの連携
+- Axiosとの連携
 
 ---
-### 4/9
+### Chart
 Chart.vue  
 ```
 npm install vue-chartjs chart.js --save
@@ -24,9 +26,7 @@ npm install chart.js@v2 --save
 
 普通の仕組み　⇨　Child
 
----
 
-### 4/13
 [公式サンプル　いろいろな種類のグラフがあるで！](https://www.npmjs.com/package/vue-chartjs)  
 
 #### 1.[propで外側からいじる仕組み](https://belltree.life/vue-chartjs/)　⇨　Child1  
@@ -46,7 +46,7 @@ mouted時にpluginを使うよ〜と明示しないといけないgit issueの[�
 this.addPlugin([chartjsPluginAnnotation])
 ```
 ---
-### 6/1
+### Vuetify
 [参考URL](https://qiita.com/azukiazusa/items/16ebffd361af8fa58333)  
 VSCodeでコード整形を行う方法 Shift+Alt+f  
 基本的に必要な情報は[公式サンプル](https://vuetifyjs.com/ja/)から引っ張ってサンプルを打ち込むようにする。
@@ -57,8 +57,21 @@ VSCodeでコード整形を行う方法 Shift+Alt+f
 - [Reval](https://vuetifyjs.com/ja/components/cards/#outlined)
 - [Transitions](https://vuetifyjs.com/ja/styles/transitions/)
 
+---
+### Vuex
+[Vuex](https://qiita.com/frost_star/items/4620957fce888150e4cc)  
+[Gatters Mutations Actionについて](https://shkn.hatenablog.com/entry/2019/05/29/020223)  
+- 各種定義
+    - State　定義
+    - Gatters　取得
+    - Mutations　変更関数定義
+    - Actions　実際の変更を行うcommitを発行する
+dispatch →　actions  
+commit → mutations  
 
 
+### axios
+[axios sample](https://qiita.com/sasayabaku/items/a936ca53aee2d60d68d5)
 
 
 

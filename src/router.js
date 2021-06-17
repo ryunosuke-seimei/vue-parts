@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 import TopView from "@/views/TopView"
 import ChartView from "@/views/ChartView"
 import VuetifyView from "@/views/VuetifyView"
-
+import VuexView from "@/views/VuexView"
 
 const router = new VueRouter({
   mode:"history",
@@ -23,6 +23,10 @@ const router = new VueRouter({
     {
       path:"/vuetify",
       component:VuetifyView
+    },
+    {
+      path:"/vuex",
+      component:VuexView
     }
   ],
 })

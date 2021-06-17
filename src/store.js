@@ -19,8 +19,8 @@ export default new Vuex.Store({
         }
     },
     actions:{
-        getTitle: function(){
-            this.commit("setTitle", "Limits")
+        SetTitle: function(context, value){
+            context.commit("setTitle", value)
         }
     }
 })
